@@ -27,13 +27,10 @@
 :: 1.0 Base CSS Start
 -------------------------- */
 
-*{
+* {
     padding: 0px;
     margin: 0px;
-}
-
-body {
-    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 a {
