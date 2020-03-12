@@ -1,0 +1,591 @@
+/* --------------------------
+:: Template Name: Bubbble Project Responsive
+:: Template Author: Amal Joy
+:: Template Author URI: 
+:: Description: responsive & ultra light.
+:: Tags: App Landing, Apps, Responsive App Landing, Bootstrap 4, Free Theme, Free HTML Template, HTML5 Template etc.
+:: Version: v1.0
+:: Created: 12/03/2020
+-------------------------- */
+
+
+/* ---------------------------------------
+:: For screen size larger than 1025 pixels
+--------------------------------------- */
+
+@media (min-width: 1025px) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    .wrapper {
+        width: 80%;
+    }
+
+    nav {
+        margin-top: 5%;
+    }
+
+    .caption {
+        font-size: 5vw;
+    }
+
+    div.left-caption, .right-caption {
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .medium-text {
+        width: 64%;
+        font-size: 1vw;
+        padding-bottom: 5%;
+    }  
+    
+    .medium-text p {
+        width: 110%;
+    }
+
+    p.medium-text-small-margin {
+        width: 63%;
+        font-size: 1vw;
+    }
+
+    div.main-img-3 {
+        width: 50%;
+    }
+
+    div.main-img-3 img{
+        width: 88%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    div.caption-features {
+        width: 50%;
+    }
+
+    p.caption-medium-heading {
+        font-size: 3vw;
+    }
+
+    .caption-medium {
+        font-size: 3vw;
+        margin-right: 16%;
+    }
+
+    .left-caption {
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+    .right-caption {
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+    .feature-list li {
+        font-size: 1.1vw;
+        line-height: 40px;
+    }
+
+    img.btn-1-alt {
+        margin-right: 3%;
+    }
+
+    img.btn-2-alt {
+        margin-left: 3%;
+    }
+
+    .download-button img {
+        height: 3.8vw;
+    }
+
+    .download-button-alt img {
+        height: 3.8vw;
+        width: auto;
+    }
+
+    div.main-img-3 {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    div.caption-features {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .features-section ul {
+        padding-bottom: 35px;
+    }
+
+    div.article-medium {
+        width: 50%;
+        padding-top: 0px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    div.main-img-4 {
+        width: 50%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+
+    div.profile-section {
+        display: inline-block;
+        vertical-align: middle;
+        padding-top: 7%;
+        padding-bottom: 6%;
+        margin-bottom: 10%;
+    }
+
+    div.profile-card {
+        width: 50%;
+        margin-left: 0%;
+        margin-right: 0%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    p.profile-name-card b{
+        font-size: 1.2vw;
+    }
+
+    p.profile-name-card{
+        font-size: 1vw;
+    }
+
+    .caption-small {
+        font-size: 1.5vw;
+        margin-bottom: 20px;
+    }
+
+    img.profile-img {
+        width: 40%;
+        margin-left: 50%;
+        margin-right: 6%;
+    }
+
+    div.profile-caption-section {
+        width: 49%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    p.profile-caption {
+        width: 85%;
+        font-size: 1.5vw;
+        font-weight: lighter;
+    }
+
+    p.profile-end {
+        width: 100%;
+        font-size: 2vw;
+    }
+
+    .email-input {
+        height: 60px;
+        width: 46%;
+        font-size: 1.5vw;
+        padding-left: 3%;
+    }
+
+    ::-webkit-input-placeholder {
+        font-size: 1.5vw;
+    }
+
+    .footer-block {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 6%;
+        padding-top: 6%;
+    }
+
+    .btn-section {
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 9%;
+        width: 12%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav-links-footer {
+        font-size: 1vw;
+        margin-left: 16%;
+        margin-right: 12%;
+        font-weight: lighter;
+    }
+
+    .logo-white {
+        margin-left: 0%;
+    }
+
+    .mob-footer {
+        width: 64%;
+        margin-left: 10%;
+    }
+    
+    .main-footer {
+        width: 100%;
+    }
+
+    .caption-font {
+        font-size: 3vw;
+    }
+
+    .row-wrap {
+        margin: 5% 0% 0% 0%;
+    }
+
+    .nav-links a {
+        color: rgb(54, 54, 54);
+    }
+
+    li.nav-signup a{
+        font-weight: bold;
+        color: #fa7357;
+    }
+
+    li.nav-login a{
+        font-weight: bold;
+        color: black;
+
+    }
+
+    .main-img-4 img {
+        width: 90%;
+        margin-left: 17%;
+        margin-right: 17%;
+        margin-bottom: 20%;
+    }
+
+    .medium-text-link {
+        font-size: 1vw;
+    }
+
+    .main-img1 img {
+        width: 110%;
+    }
+
+    .main-img2 img {
+        width: 62%;
+    }
+
+    .btn-footer {
+        width: 88%;
+    }
+    
+}
+
+
+
+
+/* ---------------------------------------
+:: For screen size smaller than 600 pixels
+--------------------------------------- */
+
+@media (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    p.medium-text {
+        font-size: 3.5vw;
+        width: 92%;
+    }
+
+    p.caption-medium {
+        font-size: 7vw;
+    }
+
+    article.medium-text {
+        font-size: 2.5vw;
+    }
+
+    p.caption-small {
+        font-size: 5vw;
+    }
+
+    p.medium-text-small-margin {
+        padding-bottom: 3%;
+        font-size: 3.5vw;
+        width: 93%;
+    }
+
+    .caption-medium-heading {
+        font-size: 8vw;
+    }
+
+    nav {
+        border-bottom: 1px rgb(234, 234, 238) solid;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .menu {
+        display: inline-block;
+        cursor: pointer;
+        vertical-align: middle;
+        margin-left: 57%;
+        margin-right: 5%;
+    }
+
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 45vh;
+        top: 8vh;
+        background-color: #037ffc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        font-weight: bold;
+    }
+
+    .nav-active {
+        transform: translateX(0%);
+
+    }
+
+    .row-wrap {
+        margin: 24px 0px 24px 0px;
+    }
+
+    .caption-features {
+        margin-top: 28px;
+    }
+}
+
+
+
+/* -----------------------------------------------------------------
+:: For screen size larger than 601 pixels & smaller than 1024 pixels
+----------------------------------------------------------------- */
+
+@media (min-width: 601px) and (max-width: 1024px){
+    body {
+        overflow-x: hidden;
+    }
+    
+    .wrapper {
+        width: 80%;
+    }
+
+    div.left-caption, .right-caption {
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    p.medium-text {
+        width: 80%;
+    }
+
+    p.medium-text-small-margin {
+        width: 80%;
+    }
+
+    div.main-img-3 {
+        width: 50%;
+    }
+
+    div.main-img-3 img{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    div.caption-features {
+        width: 50%;
+    }
+
+    p.caption-medium-heading {
+        font-size: 3vw;
+    }
+
+    .feature-list li {
+        font-size: 1.5vw;
+    }
+
+    img.btn-1-alt {
+        margin-right: 3%;
+    }
+
+    img.btn-2-alt {
+        margin-left: 3%;
+    }
+
+    .download-button-alt img {
+        height: 5vw;
+        width: auto;
+    }
+
+    div.main-img-3 {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    div.caption-features {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    div.article-medium {
+        width: 50%;
+        padding-top: 0px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    div.main-img-4 {
+        width: 50%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    div.profile-section {
+        display: inline-block;
+        vertical-align: middle;
+        padding-top: 5%;
+        padding-bottom: 4%;
+        margin-bottom: 10%;
+    }
+
+    div.profile-card {
+        width: 50%;
+        margin-left: 0%;
+        margin-right: 0%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    p.profile-name-card b{
+        font-size: 2vw;
+    }
+
+    p.profile-name-card{
+        font-size: 1.5vw;
+    }
+
+    img.profile-img {
+        width: 51%;
+        margin-left: 34%;
+        margin-right: 6%;
+    }
+
+    div.profile-caption-section {
+        width: 49%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    p.profile-caption {
+        width: 90%;
+        font-size: 2vw;
+    }
+
+    p.profile-end {
+        width: 100%;
+        font-size: 2vw;
+    }
+
+    .email-input {
+        height: 60px;
+        width: 48%;
+        font-size: 2vw;
+    }
+
+    ::-webkit-input-placeholder {
+        font-size: 2vw;
+    }
+
+    .footer-block {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .btn-section {
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 9%;
+        width: 12%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav-links-footer {
+        font-size: 2vw;
+        margin-left: 16%;
+        margin-right: 12%;
+        font-weight: lighter;
+    }
+
+    .logo-white {
+        margin-left: 0%;
+    }
+
+    .mob-footer {
+        width: 64%;
+        margin-left: 10%;
+    }
+    
+    .main-footer {
+        width: 100%;
+    }
+
+    .caption-font {
+        font-size: 4vw;
+    }
+
+    .row-wrap {
+        margin: 5% 0% 0% 0%;
+    }
+
+    .nav-links a {
+        color: rgb(54, 54, 54);
+    }
+
+    li.nav-signup a{
+        font-weight: bold;
+        color: #fa7357;
+    }
+
+    li.nav-login a{
+        font-weight: bold;
+        color: black;
+
+    }
+
+    .main-img-4 img {
+        width: 66%;
+        margin-left: 17%;
+        margin-right: 17%;
+        margin-bottom: 20%;
+    }
+
+    .medium-text-link {
+        font-size: 1.5vw;
+    }
+
+    p.medium-text {
+        width: 85%;
+    }
+
+}

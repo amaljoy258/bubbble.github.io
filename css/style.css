@@ -1,0 +1,470 @@
+/* --------------------------
+:: Template Name: Bubbble Project
+:: Template Author: Amal Joy
+:: Template Author URI: 
+:: Description: responsive & ultra light.
+:: Tags: App Landing, Apps, Responsive App Landing, Bootstrap 4, Free Theme, Free HTML Template, HTML5 Template etc.
+:: Version: v1.0
+:: Created: 12/03/2020
+-------------------------- */
+
+
+
+/* --- [Master Stylesheet] ----
+:: 1.0 Base CSS Start
+:: 2.0 Header Area CSS
+:: 3.0 Body CSS
+:: 4.0 Image CSS
+:: 5.0 Button Area CSS
+:: 6.0 Caption Area CSS
+:: 7.0 Input Area CSS
+:: 8.0 Footer Area CSS
+-------------------------- */
+
+
+
+/* --------------------------
+:: 1.0 Base CSS Start
+-------------------------- */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* --------------------------
+:: 2.0 Header Area CSS
+-------------------------- */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    list-style: none;
+}
+
+.nav-links a{
+    color: #e7f1fc;
+}
+
+.toggle .btn-bar1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.toggle .btn-bar2{
+    opacity: 0;
+}
+
+.toggle .btn-bar3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+.menu {
+    display: none;
+    transition: all 0.3 ease;
+}
+
+.btn-bar1, .btn-bar2, .btn-bar3 {
+    width: 25px;
+    height: 3px;
+    background-color: #037ffc;
+    margin: 5px;
+}
+
+.logo-blue {
+    font-weight: bold;
+    color: #037ffc;
+    border: 3px #037ffc solid;
+    display: inline-block;
+    padding: 4px 12px 4px 12px;
+    border-radius: 30px 30px 30px 0px;
+    vertical-align: middle;
+    margin-left: 5%;
+}
+
+
+/* --------------------------
+:: 3.0 Body CSS
+-------------------------- */
+
+.wrapper {
+    width: 90%;
+    font-family: 'Nunito', sans-serif;
+    margin: 0 auto;
+}
+
+.row-wrap {
+    width: 100%;
+    display:table;
+}
+
+
+
+/* --------------------------
+:: 4.0 Image CSS
+-------------------------- */
+
+.main-img1 img {
+width: 100%;
+}
+
+.main-img2 img {
+    width: 80%;
+}
+
+.main-img {
+    width: 50%;
+}
+
+.main-img-3 img{
+    width: 48%;
+    margin-left: 26%;
+    margin-right: 26%;
+}
+
+
+/* --------------------------
+:: 5.0 Button Area CSS
+-------------------------- */
+
+.button-section {
+    width: 100%;
+    
+}
+
+.download-button {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.download-button img{
+    height: 5vw;
+    width: auto;
+    
+}
+
+.btn_1 {
+    margin-right: 3%;
+}
+
+.btn_2 {
+    margin-left: 3%;
+}
+
+.download-button-alt {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.download-button-alt img {
+    height: 10vw;
+    width: auto;
+}
+
+.btn_1-alt {
+    margin-right: 10%;
+}
+
+.btn_2-alt {
+    margin-left: 10%;
+}
+
+
+/* --------------------------
+:: 6.0 Caption Area CSS
+-------------------------- */
+
+.left-caption, .right-caption {
+    width: 100%;
+}
+
+.caption-block {
+    width: 50%;
+    font-size: 2vw;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.caption {
+    width: 50%;
+    font-size: 6vw;
+}
+
+.caption, .main-img1,.main-img2 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.caption-big {
+    width: 100%;
+}
+
+.medium-text {
+    padding-bottom: 10%;
+    font-size: 1.5vw;
+}
+
+.medium-text p{
+    width: 89%;
+}
+
+.caption-medium {
+    font-size: 4vw;
+    padding-bottom: 5%;
+}
+
+.caption-small {
+    font-size: 2vw;
+    padding-bottom: 3%;
+}
+
+.medium-text-small-margin {
+    padding-bottom: 5%;
+    font-size: 1.5vw;
+}
+
+.medium-text-link {
+    padding-bottom: 10%;
+    font-size: 3vw;
+}
+
+.features-section{
+    vertical-align: middle;
+}
+
+.feature-list {
+    padding: 0px 0px 0px 0px;
+}
+
+.features-section ul {
+    list-style: none;
+    padding-bottom: 20px;
+  }
+  
+.features-section  ul li:before {
+    font-weight: bold;
+    color: #fa7357;
+    content: '✓   ';
+  }
+
+  .feature-list li {
+      font-size: 3.5vw;
+      line-height: 150%;
+  }
+
+  .caption-medium-heading {
+    font-size: 9vw;
+    padding-bottom: 5%;
+}
+
+.caption-features {
+    width: 100%;
+}
+
+.caption-font {
+    font-size: 5vw;
+    font-family: 'Nunito', sans-serif;
+    width: 90%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.main-img-4 {
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+.main-img-4 img{
+    width: 66%;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.article-medium {
+    width: 100%;
+    padding-top: 15%;
+}
+
+.profile-section {
+    width: 100%;
+    border-radius: 15px;
+    background-color: #ff8d76;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin-bottom: 10%;
+}
+
+.profile-card {
+    width: 80%;
+    display: table;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.profile-img {
+    width: 72%;
+    border-radius: 50%;
+    border-width: 3px;
+    border-color: #ffcdc3;
+    border-style: solid;
+}
+
+.profile-img-section {
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.profile-name {
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-size: 4vw;
+}
+
+.profile-caption-section {
+    width: 80%;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+.profile-designation {
+    font-size: 3.5vw;
+}
+
+.email-form{
+    width: 100%;
+    padding: 0% 0% 10% 0%;
+}
+
+
+/* --------------------------
+:: 7.0 Input Area CSS
+-------------------------- */
+
+.email-input {
+    height: 52px;
+    width: 50%;
+    border-radius: 50px;
+    border: 1px solid #bfc1c9;
+    font-family: 'Nunito', sans-serif;
+    font-size: 4.5vw;
+    padding-left: 10%;
+}
+::-webkit-input-placeholder {
+    margin-left: 10px;
+    color: thistle;
+    font-family: 'Nunito', sans-serif;
+    font-size: 4.5vw;
+}
+
+.submit-btn {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: #0275f0;
+    border-style: none;
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+.form-class {
+    padding-bottom: 6%;
+}
+
+
+
+/* --------------------------
+:: 8.0 Footer Area CSS
+-------------------------- */
+
+.footer-block {
+    width: 100%;
+    background-color: #171b42;
+    font-family: 'Nunito', sans-serif;
+    display: table;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    margin-bottom: 0px;
+}
+
+.logo-white {
+    font-weight: bold;
+    color: white;
+    border: 3px white solid;
+    display: inline-block;
+    padding: 4px 12px 4px 12px;
+    border-radius: 30px 30px 30px 0px;
+    vertical-align: middle;
+    margin-left: 15%;
+}
+
+.mob-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.nav-links-footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    margin-left: 4%;
+}
+
+.nav-links-footer a{
+    color: white;
+}
+
+
+.btn-section {
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 30%;
+    width: 100%;
+}
+
+.btn-footer {
+    height: auto;
+    width: 80%;
+    display: inline-block;   
+}
+
+.btn-footer-img-1, .btn-footer-img-2 {
+    display: inline-block;
+}
+
+.main-footer {
+    margin-bottom: 0px;
+}
+
+/* --------------------------
+:: CSS End
+-------------------------- */
